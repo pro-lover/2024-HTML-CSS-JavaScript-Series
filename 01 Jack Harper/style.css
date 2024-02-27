@@ -5,30 +5,51 @@
     color: white;
 
 }
+:root{
+    --main-background: #2e2f34;
+    --sec-background: #34353a;
+    --main-color: #ffa300;
+    --main-title-font-size: 60px;
+    --sec-title-font-size: 40px;
+}
+.main-color{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.section-title-spacing{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-title-text{
+font-size: var(--sec-title-font-size);
+}
 body {
-    
-    background: #2e2f34;
-    margin-left: 100px;
+
+    margin-left: 400px;
+    margin-right: 400px;
     
 }
+.all-container{
+    background: var(--main-background);
+    padding-top: 20px;
+    padding-left: 0px;
+
+}
 header {
+    background-color: var(--main-background);
     height: 100px;
     position: fixed;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
     top: 0;
     opacity: .95;
-
-
     overflow: hidden;
- 
-
 }
 header .header-right{
     padding: 32px 0px;
     height: 100%;
-    right: 200px;
+    right: 800px;
     position: absolute;
+
 }
 header a {
     float: left;
@@ -40,15 +61,16 @@ header a {
     border-radius: 4px;
 }
 header a img {
-
-    max-width: 100px;
+    margin-left: 0px;
+    max-width: 70px;
 }
 .header-right a:hover {
-    background-color: #ddd;
-    color: black;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    color: white;
   }
   .header-right a.active {
-    background-color: dodgerblue;
+    border-bottom: 1px solid var(--main-color);
     color: white;
   }
 .container {
@@ -58,8 +80,6 @@ header a img {
 }
 /* header/container/intro/*/
 #intro{
- 
-    margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
     /* code*/
@@ -72,6 +92,27 @@ header a img {
     /* code*/
     text-align: left;
     width: 20%;
+    
+}
+#intro  .intro-contact h1{
+font-size: 60px;
+}
+#intro  .intro-contact p {
+    margin-bottom: 10px;
+    }
+#intro  .intro-contact p a{
+    text-decoration: none;
+    }
+#intro  .intro-contact button{
+    border: 1px solid #ffa300;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background-color: transparent;
+}
+#intro  .intro-contact hr{
+    width: 50px;
+    margin: 20px 0px;
+    
 }
 #intro  .intro-img{
     display: inline-block;
@@ -92,6 +133,193 @@ header a img {
     text-align: left;
     width: 30%;
 }
+#services{
+    margin-top: -54px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 8rem 0rem;
+    text-align: center;
+    background-color: #34353a;
+
+    
+}
+#services  .services-intro{
+    /*border: 1px solid #ff0000;*/
+    width: 100%;
+}
+#services  .services-intro p{
+    width: 500px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+#services  .services-cards{
+    margin-top: 40px;
+    
+}
+#services  .services-cards  .card{
+    display: inline-block;
+    padding: 0rem 1rem;
+    vertical-align: middle;
+
+}
+#services  .services-cards  .card h1{
+    margin-bottom: 10px;
+
+}
+#services  .services-cards  .card  .card-box{
+    display: inline-block;
+    padding: 4rem 3rem;
+    vertical-align: middle;
+    background: #2e2f34;
+    margin-bottom: 40px;
+}
+#services  .services-cards  .card  .card-box img{
+    margin-bottom: 10px;
+    width: 150px;
+}
+#services  .services-cards  .card  .card-box h3{
+    margin-bottom: 10px;
+}
+#portfolio{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+#portfolio  .portfolio-intro{
+    /*border: 1px solid #ff0000;*/
+    width: 100%;
+}
+#portfolio  .portfolio-intro p{
+   
+    width: 400px;
+    display: inline-block;
+}
+#portfolio  .portfolio-tab{
+    overflow: hidden;
+}
+#portfolio  .portfolio-tab button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #ffa300 ;
+   
+}
+#portfolio  .portfolio-tab button:hover{
+
+    border-bottom: 1px solid #ffa300;
+   
+}
+#portfolio  .portfolio-tab button.active{
+
+    border-bottom: 1px solid #ffa300;
+   
+}
+#portfolio  .portfolio-cards{
+    /*border: 1px solid #ff0000;*/
+}
+#portfolio  .portfolio-cards  .card{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+
+}
+#portfolio  .portfolio-cards  .card  .s300x300{
+    float: left;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #002aff;
+    height: 200px;
+    width: 200px;
+}
+#portfolio  .portfolio-cards  .card  .s600x600{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #ff0000;
+    height: 500px;
+    width: 500px;
+}
+#portfolio  .portfolio-cards  .card  .s300x600{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #04ff00;
+    height: 500px;
+    width: 200px;
+}
+#portfolio  .portfolio-cards  .card  .s700x400{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #c300ff;
+    height: 400px;
+    width: 700px;
+}
+#latest-news{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 8rem 0rem;
+    text-align: center;
+    background-color: #34353a;
+}
+#latest-news  .latest-news-intro{
+    /*border: 1px solid #ff0000;*/
+    width: 100%;
+}
+#latest-news  .latest-news-intro p{
+    width: 400px;
+    display: inline-block;
+}
+#latest-news  .latest-news-cards{
+    /*border: 1px solid #ff0000;*/
+}
+#latest-news  .latest-news-cards  .card{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    /*border: 1px solid #ff0000;*/
+}
+#latest-news  .latest-news-cards  .card  .card-box{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #2e2f34;
+}
+#contact{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+#contact  .contact-intro{
+    /*border: 1px solid #ff0000;*/
+    width: 100%;
+}
+#contact  .contact-intro p{
+    width: 400px;
+    display: inline-block;
+}
+#contact  .contact-cards{
+    /*border: 1px solid #ff0000;*/
+}
+#contact  .contact-cards  .card{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    /*border: 1px solid #ff0000;*/
+}
+#contact  .contact-cards  .card  .card-box{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background: #2e2f34;
+}
 footer {
     height: 50px;
     background-color: rgba(240, 248, 255, 0);
@@ -109,6 +337,22 @@ footer {
     .header-right {
       float: none;
     }
+  }
+  @media screen and (max-width: 1500px) {
+   body{
+
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+   header {
+    height: 100px;
+    opacity: .95;
+    overflow: hidden;
+ 
+}
+header .header-right{
+    right: 200px;
+}
   }
 
 
