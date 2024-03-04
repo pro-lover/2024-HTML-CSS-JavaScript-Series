@@ -1,0 +1,78 @@
+:root{
+    /*colors*/
+    --activeDackGreen: #007294;
+}
+*{
+   color: white ;
+   font-family: ;
+   
+}
+body {
+    background: black;
+}
+/* header */
+header{
+    padding: 10px 30px;
+    height: 50px;
+    top: 0;
+    position: fixed;
+}
+header a{
+    padding-right: 20px;
+    text-decoration: none;
+}
+header a:hover{
+    color: var(--activeDackGreen);
+}
+header a:active{
+    color: var(--activeDackGreen);
+}
+
+/* HOME*/
+    #home{
+        background: url(../images/bg-home.jpg)no-repeat;
+        background-size: contain;
+        height: 1090px;
+        border: 1px solid var(--activeDackGreen);
+    }
+    #home .content-wrapper{
+        background-color: rgba(0, 0, 0, 0.491);
+        background-size: contain;
+        height: 1090px;
+    }
+    #home .content-wrapper .content{
+        border: 1px solid var(--activeDackGreen);
+        width: 50%;
+        margin-left: 50px;
+        top: 225px;
+        position: absolute;
+        font-size: 51px;
+        
+    }
+    #home .content-wrapper .content h2{
+        font-size: 51px;
+        font-weight: lighter;
+        
+    }
+    #home .content-wrapper .content-two{
+        width: 50%;
+        margin-left: 50px;
+        top: 800px;
+        position: absolute;
+        
+    }
+/* ABOUT*/
+#about{
+    background: url(../images/bg-about.jpg)no-repeat;
+    border: 1px solid var(--activeDackGreen);
+    height: 1090px;
+}
+/*RESUME*/
+#resume{
+    background: black;
+    border: 1px solid var(--activeDackGreen);
+    background: url(../images/bg-resume.jpg)no-repeat;
+    background-size: 100%;
+    opacity: 0.2;
+    height: 1090px;
+}
