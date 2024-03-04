@@ -327,6 +327,8 @@ footer {
     text-align: center;
     line-height: 50px;
 }
+
+
 @media screen and (max-width: 500px) {
     header a {
       float: none;
@@ -349,10 +351,10 @@ footer {
     opacity: .95;
     overflow: hidden;
  
-}
-header .header-right{
+    }
+    header .header-right{
     right: 200px;
-}
+    }
   }
 
 
