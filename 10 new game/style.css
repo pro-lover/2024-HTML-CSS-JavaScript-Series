@@ -1,0 +1,91 @@
+body{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.background{
+    width: 100%;
+}
+.player-one-section{
+    width: 19%;
+    height: 800px;
+    display: inline-block;
+    border: 1px solid  red;
+    position: fixed;
+    left: 0;
+}
+.body-section{
+    width: 50%; 
+    height: 1000px;
+    display: inline-block;
+    border: 1px solid  red;
+    position: fixed;
+    left: 25%;
+}
+.player-two-section{
+    width: 19%;
+    height: 800px;
+    display: inline-block;
+    border: 1px solid  red;
+    position: fixed;
+    right: 0;
+}
+.board-container{
+    background-image:  url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid  rgb(246, 255, 0);
+    width: 100%;
+    height: 100%;
+}
+.board-pic{
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    z-index: 9; 
+    top: 214px;
+    left: 624px;
+    color: #000;
+}
+.pic {
+    height: 48px;
+    width: 48px;
+    border: 4px solid  rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: move;
+    z-index: 10;
+  }
+.dot {
+    height: 48px;
+    width: 48px;
+    background-color: #a6ff00;
+    border-radius: 50%;
+    cursor: move;
+    z-index: 10;
+  }
+  .dot-player-two {
+    height: 48px;
+    width: 48px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    cursor: move;
+    z-index: 10;
+  }
+  .dot-container{
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    z-index: 9;
+  
+  }
+  .dot-container-player-two{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 9;
+  
+  }
+  hr{
+    margin-bottom: 53px;
+  }
