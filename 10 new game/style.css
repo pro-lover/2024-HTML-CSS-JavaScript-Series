@@ -10,7 +10,7 @@ body{
     width: 19%;
     height: 800px;
     display: inline-block;
-    border: 1px solid  red;
+    border: 1px solid  rgb(0, 255, 234);
     position: fixed;
     left: 0;
 }
@@ -18,7 +18,7 @@ body{
     width: 50%; 
     height: 1000px;
     display: inline-block;
-    border: 1px solid  red;
+
     position: fixed;
     left: 25%;
 }
@@ -26,7 +26,7 @@ body{
     width: 19%;
     height: 800px;
     display: inline-block;
-    border: 1px solid  red;
+    border: 1px solid   rgb(0, 255, 234);
     position: fixed;
     right: 0;
 }
@@ -88,4 +88,5 @@ body{
   }
   hr{
     margin-bottom: 53px;
+    border: black;
   }
