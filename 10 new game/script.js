@@ -9,6 +9,9 @@ const y = 624;
 const xTo = 355;
 const yTo = 111;
 
+let mousePox = 0;
+let mousePoy = 0;
+
 boardpic[1].style.top = `${x+xTo}px`;
 boardpic[2].style.top = `${x+xTo*2}px`;
 boardpic[3].style.top = `${x+xTo}px`;
@@ -86,8 +89,11 @@ var findID = (id) => {
             posi3 = e.clientX;
             posi4 = e.clientY;
             // set the element's new position:
-            elmnt.style.top = (elmnt.offsetTop - posi2) + "px";
-            elmnt.style.left = (elmnt.offsetLeft - posi1) + "px";
+           // elmnt.style.top = (elmnt.offsetTop - posi2) + "px";
+           // elmnt.style.left = (elmnt.offsetLeft - posi1) + "px";
+
+            elmnt.style.top = (mousePoy - posi2) + "px";
+            elmnt.style.left = (mousePox - posi1) + "px";
             
             console.log("top:",elmnt.style.top);
             console.log("left: ",elmnt.style.left);
@@ -134,8 +140,11 @@ var findID2 = (id) => {
             posi3 = e.clientX;
             posi4 = e.clientY;
             // set the element's new position:
-            elmnt.style.top = (elmnt.offsetTop - posi2) + "px";
-            elmnt.style.left = (elmnt.offsetLeft - posi1) + "px";
+            //elmnt.style.top = (elmnt.offsetTop - posi2) + "px";
+            //elmnt.style.left = (elmnt.offsetLeft - posi1) + "px";
+
+            elmnt.style.top = (mousePoy - posi2) + "px";
+            elmnt.style.left = (mousePox - posi1) + "px";
 
             console.log("top:",elmnt.style.top);
             console.log("left: ",elmnt.style.left);
@@ -153,4 +162,9 @@ var findID2 = (id) => {
     dragElements(secPrayerCowsContainer[dotID]);
 };
 
-
+window.addEventListener('mousedown' , function(e) {
+   mousePox = e.x;
+   mousePoy = e.y;
+  this.document.querySelector('.y-values').textContent = e.y;
+  this.document.querySelector('.x-values').textContent = e.x;
+});
