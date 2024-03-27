@@ -192,8 +192,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1336-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
     }
     if(parseInt(y) > 514 && parseInt(y)< 618){
@@ -201,19 +200,19 @@ window.addEventListener('mousedown' , function(e) {
       if(parseInt(x) > 570-IDs2 && parseInt(x)< 680-IDs2)
       {             // 1
         secPrayerCowsContainer[dotID].style.left = 627-IDs2+'px';
-        return;
+        
       }else if(parseInt(x) > 680-IDs2 && parseInt(x)< 797-IDs2)
       {      // 3
         secPrayerCowsContainer[dotID].style.left = 738-IDs2+'px';
-        return;
+        
       }else if(parseInt(x) > 797-IDs2 && parseInt(x)< 948-IDs2)
       {      // 4
         secPrayerCowsContainer[dotID].style.left = 849-IDs2+'px';
-        return;
+        
       }if(parseInt(x) > 948-IDs2 && parseInt(x)< 1150-IDs2)
       {           // 5
         secPrayerCowsContainer[dotID].style.left = 1116-IDs2+'px';
-        return;
+        
       }else if(parseInt(x) > 1150-IDs2 && parseInt(x)< 1268-IDs2)
       {       // 6 
         secPrayerCowsContainer[dotID].style.left = 1225-IDs2+'px';
@@ -222,8 +221,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1336-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
     }
     if(parseInt(y) > 870 && parseInt(y)< 987){
@@ -236,8 +234,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1336-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
     }
     if(parseInt(y) > 758 && parseInt(y)< 858){
@@ -253,8 +250,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1228-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
     }
     if(parseInt(y) > 268 && parseInt(y)< 369){
@@ -267,8 +263,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1228-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
       
     }
@@ -282,8 +277,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1116-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
       
     }
@@ -297,8 +291,7 @@ window.addEventListener('mousedown' , function(e) {
         secPrayerCowsContainer[dotID].style.left = 1116-IDs2+'px';
       }else{
         console.log("Out of range");
-        secPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        secPrayerCowsContainer[dotID].style.left = 25+'px';
+        
       }
       
     }
@@ -322,8 +315,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1336+'px';
       }else{
         console.log("Out of range 0 8 9");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
 
       }
     }
@@ -333,33 +325,31 @@ window.addEventListener('mousedown' , function(e) {
       if(parseInt(x) > 570 && parseInt(x) < 680)
       {  
           firstPrayerCowsContainer[dotID].style.left = 627+'px';
-          return;
-          // 1
+
        
       }else if(parseInt(x) > 680 && parseInt(x)< 797)
       {      // 3
         firstPrayerCowsContainer[dotID].style.left = 738+'px';
-        return;
+   
       }else if(parseInt(x) > 797 && parseInt(x)< 948)
       {      // 4
         firstPrayerCowsContainer[dotID].style.left = 849+'px';
-        return;
+    
       }if(parseInt(x) > 948 && parseInt(x)< 1150)
       {           // 5
         firstPrayerCowsContainer[dotID].style.left = 1116+'px';
-        return;
+   
       }else if(parseInt(x) > 1150 && parseInt(x)< 1268)
       {       // 6 
         firstPrayerCowsContainer[dotID].style.left = 1225+'px';
-        return;
+    
       }else if(parseInt(x) > 1268 && parseInt(x)< 1418)
       {      // 7
         firstPrayerCowsContainer[dotID].style.left = 1336+'px';
-        return;
+    
       }else{
         console.log("Out of range 1 3 4 5 6 7 ");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
     }
     if(parseInt(y) > 870 && parseInt(y)< 987){
@@ -372,8 +362,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1336+'px';
       }else{
         console.log("Out of range 2 12 13");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
     }
     if(parseInt(y) > 758 && parseInt(y)< 858){
@@ -386,8 +375,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1228+'px';
       }else{
         console.log("Out of range 21 14 19");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
     }
     if(parseInt(y) > 268 && parseInt(y)< 369){
@@ -400,8 +388,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1228+'px';
       }else{
         console.log("Out of range 22 10 23 ");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
       
     }
@@ -415,8 +402,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1116+'px';
       }else{
         console.log("Out of range 16 15 18 ");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
       
     }
@@ -430,8 +416,7 @@ window.addEventListener('mousedown' , function(e) {
         firstPrayerCowsContainer[dotID].style.left = 1116+'px';
       }else{
         console.log("Out of range 17 11 20");
-        firstPrayerCowsContainer[dotID].style.top = 116+(50*dotID)+'px';
-        firstPrayerCowsContainer[dotID].style.left = 25+'px';
+
       }
       
     }
